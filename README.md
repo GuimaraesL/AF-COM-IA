@@ -12,7 +12,7 @@
 
 ---
 
-  [Confira o resultado do video de apresentaçao](Resultado_Bomba_BC_14_PT.md)
+  [Confira o resultado obtido com dados ficticios](Resultado_Bomba_BC_14_PT.md)
 
 
 ---
