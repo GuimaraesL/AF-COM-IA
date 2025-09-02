@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Relatório de Custo Estimado – Uso da API Gemini</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Google Fonts - Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #1f2937; /* Dark gray text */
+        }
+        .container {
+            max-width: 90%; /* Responsive width */
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #ffffff; /* White background for the card */
+            border-radius: 0.75rem; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        h1 {
+            border-bottom: 2px solid #e5e7eb; /* Light gray border for separation */
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            color: #111827; /* Slightly darker heading */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: #f9fafb; /* Lighter background for table headers */
+            font-weight: 600;
+            color: #374151;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .total-row {
+            font-weight: 700;
+            background-color: #e0f2fe; /* Light blue for total row */
+        }
+        ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        a {
+            color: #2563eb; /* Blue links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+<!-- Barra de Navegação -->
+<nav class="bg-slate-800 p-4 shadow-lg">
+<div class="max-w-7xl mx-auto flex justify-center space-x-8">
+<a class="text-slate-300 text-lg font-medium px-4 py-2 rounded-md hover:bg-slate-700 transition-colors" href="index.html">A Solução</a>
+<a class="text-white text-lg font-semibold px-4 py-2 rounded-md bg-amber-500 hover:bg-amber-600 transition-colors" href="relatorio_custo.html">Relatório de Custo</a>
+<a class="text-slate-300 text-lg font-medium px-4 py-2 rounded-md hover:bg-slate-700 transition-colors" href="como_implementar.html">Como Implementar</a>
+</div>
+</nav>
+<div class="container mx-auto px-4 py-12">
+<!-- Seção do Cabeçalho Principal (Padronizado) -->
+<header class="text-center mb-16">
+<h1 class="text-4xl md:text-5xl font-bold text-slate-900">Relatório de Custo Estimado da API Gemini</h1>
+<p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Este relatório detalha os custos projetados para o uso da API Gemini, incluindo cenários de simulação e observações importantes.</p>
+<p class="text-sm text-gray-500 mt-2">
+<span class="font-semibold">Data da Simulação:</span> 10/07/2025 14:06:11
+            </p>
+</header>
+<hr class="my-6 border-gray-300"/>
+<h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            🧠 Contexto
+        </h2>
+<p class="text-gray-700 leading-relaxed mb-6">
+            Este relatório resume os custos estimados para o uso da API <strong class="font-medium">Gemini 2.5 Pro (Enterprise)</strong> em uma aplicação que realiza análises automatizadas de falhas industriais, com base em tokens processados.
+        </p>
+<p class="text-gray-700 leading-relaxed mb-6">
+            A simulação considera o uso <strong class="font-medium">sem contexto salvo (context caching)</strong> e assume que o modelo <strong class="font-medium">Gemini Pro</strong> está sendo usado em ambiente corporativo, via <strong class="font-medium">API da Google Cloud</strong>.
+        </p>
+<hr class="my-6 border-gray-300"/>
+<h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            💼 Diferença entre os modelos Gemini
+        </h2>
+<div class="overflow-x-auto rounded-lg shadow-sm">
+<table class="min-w-full bg-white rounded-lg">
+<thead>
+<tr>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tl-lg">Opção</th>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Descrição</th>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tr-lg">Cobrança</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr>
+<td class="py-3 px-4 whitespace-nowrap"><strong>Gemini Business/Enterprise</strong></td>
+<td class="py-3 px-4">Uso integrado ao Gmail, Docs, Drive e outros apps Google Workspace</td>
+<td class="py-3 px-4 whitespace-nowrap">Por usuário/mês</td>
+</tr>
+<tr>
+<td class="py-3 px-4 whitespace-nowrap"><strong>Gemini API (via Cloud)</strong></td>
+<td class="py-3 px-4">Uso programático por API para aplicações personalizadas e sistemas internos</td>
+<td class="py-3 px-4 whitespace-nowrap">Por tokens</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="text-gray-700 leading-relaxed mt-4 mb-6">
+            O custo abaixo refere-se <strong class="font-medium">exclusivamente ao uso da API Gemini 2.5 Pro</strong>, via <strong class="font-medium">Google Cloud Vertex AI</strong>, e não exige plano Workspace.
+        </p>
+<hr class="my-6 border-gray-300"/>
+<h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            🔧 Cenário Simulado
+        </h2>
+<ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+<li><strong class="font-medium">Modelo:</strong> Gemini 2.5 Pro</li>
+<li><strong class="font-medium">Análises por dia:</strong> 60</li>
+<li><strong class="font-medium">Dias por mês:</strong> 30</li>
+<li><strong class="font-medium">Total de análises mensais:</strong> 1.800</li>
+</ul>
+<hr class="my-6 border-gray-300"/>
+<h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            🔢 Simulação: 20k tokens de input e 10k tokens de output por análise
+        </h2>
+<div class="overflow-x-auto rounded-lg shadow-sm">
+<table class="min-w-full bg-white rounded-lg">
+<thead>
+<tr>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tl-lg">Tipo de token</th>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tokens/mês</th>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Custo por milhão</th>
+<th class="py-3 px-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tr-lg">Custo total</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200">
+<tr>
+<td class="py-3 px-4 whitespace-nowrap">Entrada</td>
+<td class="py-3 px-4 whitespace-nowrap">36,000,000</td>
+<td class="py-3 px-4 whitespace-nowrap">US$ 1,25</td>
+<td class="py-3 px-4 whitespace-nowrap">US$ 45.00</td>
+</tr>
+<tr>
+<td class="py-3 px-4 whitespace-nowrap">Saída</td>
+<td class="py-3 px-4 whitespace-nowrap">18,000,000</td>
+<td class="py-3 px-4 whitespace-nowrap">US$ 10,00</td>
+<td class="py-3 px-4 whitespace-nowrap">US$ 180.00</td>
+</tr>
+<tr class="total-row">
+<td class="py-3 px-4 whitespace-nowrap font-bold">Total</td>
+<td class="py-3 px-4 whitespace-nowrap font-bold">—</td>
+<td class="py-3 px-4 whitespace-nowrap font-bold">—</td>
+<td class="py-3 px-4 whitespace-nowrap font-bold">US$ 225.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="my-6 border-gray-300"/>
+<h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            ℹ Observações
+        </h2>
+<ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+<li>O modelo <strong class="font-medium">Gemini 2.5 Pro</strong> é robusto, adequado para tarefas complexas e análises detalhadas.</li>
+<li>Não foi utilizado contexto salvo (<strong class="font-medium">context caching</strong>), o que poderia reduzir os custos em prompts repetitivos.</li>
+<li>O custo pode variar com base no volume de tokens, modelo utilizado (Pro, Flash, Flash Lite) e recursos adicionais.</li>
+</ul>
+<hr class="my-6 border-gray-300"/>
+<h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+            📎 Fontes
+        </h2>
+<ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+<li><a class="text-blue-600 hover:text-blue-800" href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank">Tabelas de preços da Google AI</a></li>
+<li><a class="text-blue-600 hover:text-blue-800" href="https://cloud.google.com/vertex-ai" target="_blank">Vertex AI – Google Cloud</a></li>
+</ul>
+</div>
+</body>
+</html>

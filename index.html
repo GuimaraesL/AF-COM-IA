@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Inteligente de Análise de Causa Raiz (RCA)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .flow-line {
+            position: absolute;
+            height: 2px;
+            background-color: #D1D5DB; /* gray-300 */
+            z-index: 0;
+        }
+        .flow-arrow {
+            color: #D1D5DB;
+        }
+        .modal {
+            transition: opacity 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-slate-800 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-center space-x-8">
+            <a href="index.html" class="text-white text-lg font-semibold px-4 py-2 rounded-md bg-amber-500 hover:bg-amber-600 transition-colors">A Solução</a>
+            <a href="relatorio_custo.html" class="text-slate-300 text-lg font-medium px-4 py-2 rounded-md hover:bg-slate-700 transition-colors">Relatório de Custo</a>
+            <a href="como_implementar.html" class="text-slate-300 text-lg font-medium px-4 py-2 rounded-md hover:bg-slate-700 transition-colors">Como Implementar</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-12">
+
+        <!-- Header Section -->
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900">Sistema Inteligente de Análise de Causa Raiz (RCA)</h1>
+            <p class="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">Um assistente especialista projetado para auxiliar nossos engenheiros, transformando dados brutos em insights acionáveis de forma rápida, padronizada e inteligente.</p>
+        </header>
+
+        <!-- Interactive Workflow Section -->
+        <section id="workflow" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">O Fluxo de Trabalho Inteligente</h2>
+            <div class="relative flex flex-col md:flex-row justify-between items-center w-full max-w-6xl mx-auto">
+                
+                <!-- Lines for desktop view -->
+                <div class="hidden md:block flow-line top-1/2 left-0 w-full" style="transform: translateY(-50%);"></div>
+
+                <!-- Workflow Steps -->
+                <div class="workflow-step-container flex flex-col md:flex-row justify-between w-full z-10">
+                    <!-- Step 1 -->
+                    <div class="workflow-step flex flex-col items-center text-center p-4 md:w-1/5" data-step="1">
+                        <div class="flex items-center justify-center w-20 h-20 bg-white border-4 border-amber-400 rounded-full shadow-lg cursor-pointer transform hover:scale-110 transition-transform">
+                            <span class="text-3xl">📥</span>
+                        </div>
+                        <h3 class="mt-4 font-semibold">Coleta de Dados</h3>
+                    </div>
+                    
+                    <!-- Arrow 1 -->
+                    <div class="flex items-center justify-center text-3xl flow-arrow md:w-auto -my-4 md:my-0">↓</div>
+
+                    <!-- Step 2 -->
+                    <div class="workflow-step flex flex-col items-center text-center p-4 md:w-1/5" data-step="2">
+                        <div class="flex items-center justify-center w-20 h-20 bg-white border-4 border-amber-400 rounded-full shadow-lg cursor-pointer transform hover:scale-110 transition-transform">
+                             <span class="text-3xl">🖼</span>
+                        </div>
+                        <h3 class="mt-4 font-semibold">Análise de Mídias</h3>
+                    </div>
+
+                    <!-- Arrow 2 -->
+                    <div class="flex items-center justify-center text-3xl flow-arrow md:w-auto -my-4 md:my-0">↓</div>
+
+                    <!-- Step 3 -->
+                    <div class="workflow-step flex flex-col items-center text-center p-4 md:w-1/5" data-step="3">
+                        <div class="flex items-center justify-center w-20 h-20 bg-white border-4 border-amber-400 rounded-full shadow-lg cursor-pointer transform hover:scale-110 transition-transform">
+                           <span class="text-3xl">📚</span>
+                        </div>
+                        <h3 class="mt-4 font-semibold">Busca RAG</h3>
+                    </div>
+                    
+                    <!-- Arrow 3 -->
+                    <div class="flex items-center justify-center text-3xl flow-arrow md:w-auto -my-4 md:my-0">↓</div>
+
+                    <!-- Step 4 -->
+                    <div class="workflow-step flex flex-col items-center text-center p-4 md:w-1/5" data-step="4">
+                        <div class="flex items-center justify-center w-20 h-20 bg-white border-4 border-amber-400 rounded-full shadow-lg cursor-pointer transform hover:scale-110 transition-transform">
+                            <span class="text-3xl">🧠</span>
+                        </div>
+                        <h3 class="mt-4 font-semibold">Análise da IA</h3>
+                    </div>
+
+                    <!-- Arrow 4 -->
+                    <div class="flex items-center justify-center text-3xl flow-arrow md:w-auto -my-4 md:my-0">↓</div>
+
+                    <!-- Step 5 -->
+                    <div class="workflow-step flex flex-col items-center text-center p-4 md:w-1/5" data-step="5">
+                        <div class="flex items-center justify-center w-20 h-20 bg-white border-4 border-amber-400 rounded-full shadow-lg cursor-pointer transform hover:scale-110 transition-transform">
+                            <span class="text-3xl">📄</span>
+                        </div>
+                        <h3 class="mt-4 font-semibold">Geração de Relatório</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prompt Engineering Section -->
+        <section id="prompts" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-4">A Inteligência por Trás do Processo</h2>
+            <p class="text-center text-slate-600 mb-12 max-w-3xl mx-auto">Resultados de alta qualidade são garantidos por uma estratégia de Engenharia de Prompts com 4 pilares fundamentais.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Pillar 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-3xl mb-3">🧑‍🔧</div>
+                    <h3 class="text-xl font-bold mb-2">Persona de Especialista</h3>
+                    <p class="text-slate-600">Instruímos a IA a atuar como uma especialista em falhas metalúrgicas, ajustando seu "mindset" para nosso contexto técnico.</p>
+                </div>
+                <!-- Pillar 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-3xl mb-3">🧩</div>
+                    <h3 class="text-xl font-bold mb-2">Contexto Rico e Multifacetado</h3>
+                    <p class="text-slate-600">Fornecemos um dossiê completo: dados do Excel, análise de mídias e o histórico de falhas correlacionadas da fábrica.</p>
+                </div>
+                <!-- Pillar 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-3xl mb-3">📏</div>
+                    <h3 class="text-xl font-bold mb-2">Formato Rígido e Instruções</h3>
+                    <p class="text-slate-600">Usamos um formato de resposta obrigatório para garantir que todos os relatórios sejam padronizados e consistentes.</p>
+                </div>
+                <!-- Pillar 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <div class="text-3xl mb-3">🎓</div>
+                    <h3 class="text-xl font-bold mb-2">Aprendizado pelo Exemplo</h3>
+                    <p class="text-slate-600">O prompt inclui um exemplo de análise bem-sucedida, uma técnica poderosa para guiar a IA ao resultado esperado.</p>
+                </div>
+            </div>
+             <div class="mt-8 text-center bg-amber-100 border-l-4 border-amber-500 text-amber-700 p-4 rounded-md max-w-3xl mx-auto">
+                <p class="font-bold">Diferencial: Prompts em Múltiplos Estágios</p>
+                <p>Utilizamos uma cadeia de prompts especializados (Um prompt que analisa midias individualmente, um para refinar histórico, um para análise final contendo o resultado dos prompts anteriores), simulando um time de especialistas trabalhando em conjunto.</p>
+            </div>
+        </section>
+
+        <!-- Business Value Section -->
+        <section id="value" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Ganhos de Valor para o Negócio</h2>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="chart-container relative mx-auto" style="height:400px; max-width:800px;">
+                    <canvas id="valueChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="workflow-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 opacity-0 pointer-events-none z-50">
+
+        <div class="bg-white rounded-lg shadow-2xl p-8 max-w-2xl w-full transform -translate-y-10 transition-transform duration-300">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="modal-title" class="text-2xl font-bold"></h3>
+                <button id="close-modal-btn" class="text-3xl text-slate-500 hover:text-slate-800">&times;</button>
+            </div>
+            <p id="modal-description" class="text-slate-700"></p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Workflow Modal Logic
+            const modal = document.getElementById('workflow-modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalDescription = document.getElementById('modal-description');
+            const closeModalBtn = document.getElementById('close-modal-btn');
+            
+            const stepDetails = {
+                1: {
+                    title: "Etapa 1: Coleta de Dados Automatizada",
+                    description: "O processo começa quando o engenheiro aponta para uma pasta contendo as evidências de uma falha. O sistema automaticamente identifica e extrai as informações essenciais: dados do Excel (área, equipamento, descrição) e evidências visuais como fotos e vídeos."
+                },
+                2: {
+                    title: "Etapa 2: Análise de Mídias com IA",
+                    description: "Cada imagem e vídeo é analisado individualmente por um modelo de IA treinado para visão computacional. A IA gera um laudo técnico conciso para cada mídia, descrevendo objetivamente os sinais de falha (ex: corrosão severa, vazamento de fluido)."
+                },
+                3: {
+                    title: "Etapa 3: Busca Aumentada por Geração (RAG)",
+                    description: "Este é o nosso grande diferencial. O sistema consulta o conhecimento acumulado da fábrica. Primeiro, um script de filtro busca todas as falhas no mesmo subgrupo do equipamento. Depois, uma IA intermediária analisa essa lista e seleciona as 3 falhas passadas mais relevantes para o caso atual, entendendo a relação causal."
+                },
+                4: {
+                    title: "Etapa 4: Análise de Causa Raiz com IA Especialista",
+                    description: "O modelo de IA mais poderoso recebe um dossiê completo com os dados do Excel, as análises de mídias e o contexto histórico relevante. Com base neste dossiê, a IA realiza a análise de causa raiz completa, gerando Ishikawa, 5 Porquês e mais."
+                },
+                5: {
+                    title: "Etapa 5: Geração de Relatórios Padronizados",
+                    description: "O sistema gera automaticamente um relatório final em formato Markdown, incluindo Diagrama de Ishikawa, 5 Porquês, Plano de Ação e a Conclusão Final. Este relatório pode ser facilmente compartilhado, arquivado ou convertido."
+                }
+            };
+
+            document.querySelectorAll('.workflow-step').forEach(step => {
+                step.addEventListener('click', () => {
+                    const stepNumber = step.dataset.step;
+                    const details = stepDetails[stepNumber];
+                    modalTitle.textContent = details.title;
+                    modalDescription.textContent = details.description;
+                    modal.classList.remove('opacity-0', 'pointer-events-none');
+                    modal.querySelector('div').classList.remove('-translate-y-10');
+                });
+            });
+
+            const closeModal = () => {
+                modal.classList.add('opacity-0', 'pointer-events-none');
+                modal.querySelector('div').classList.add('-translate-y-10');
+            };
+
+            closeModalBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+
+            // Business Value Chart Logic
+            const ctx = document.getElementById('valueChart').getContext('2d');
+            const valueChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Velocidade e Eficiência', 'Padronização e Qualidade', 'Inteligência Aumentada', 'Tomada de Decisão'],
+                    datasets: [{
+                        label: 'Impacto no Negócio',
+                        data: [95, 90, 98, 85], // Representative scores for impact
+                        backgroundColor: [
+                            'rgba(251, 191, 36, 0.6)',
+                            'rgba(59, 130, 246, 0.6)',
+                            'rgba(239, 68, 68, 0.6)',
+                            'rgba(16, 185, 129, 0.6)'
+                        ],
+                        borderColor: [
+                            'rgba(251, 191, 36, 1)',
+                            'rgba(59, 130, 246, 1)',
+                            'rgba(239, 68, 68, 1)',
+                            'rgba(16, 185, 129, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            enabled: true,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    const value = context.raw;
+                                    const descriptions = {
+                                        'Velocidade e Eficiência': 'Reduz o tempo de análise de dias para minutos.',
+                                        'Padronização e Qualidade': 'Garante que toda análise siga uma metodologia robusta e consistente.',
+                                        'Inteligência Aumentada': 'Usa o histórico para identificar padrões e causas recorrentes.',
+                                        'Tomada de Decisão': 'Fornece relatórios claros e data-driven para apoiar decisões estratégicas.'
+                                    };
+                                    return descriptions[context.label];
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: {
+                                display: true,
+                                text: 'Nível de Impacto'
+                            }
+                        },
+                        y: {
+                           ticks: {
+                                font: {
+                                    size: 14,
+                                }
+                           }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
