@@ -1,0 +1,2552 @@
+[
+  {
+    "file": "20250508-RCA-BC14 Falha de lubrificação no mancal (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "FALHA DE LUBRIFICAÇÃO NO MANCAL.",
+    "Quando": "08/05/202520:39:25",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: FALHA DE LUBRIFICAÇÃO NO MANCAL (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Aplicar relubrificação imediata conforme especificação.\n",
+      "Checar quantidade de graxa/óleo aplicada",
+      "Monitorar vibração e temperatura nas próximas 24h"
+    ],
+    "Onde Ação de Contenção": "Skid 02",
+    "Responsável": "Ana Paula",
+    "Data de Início de Contenção": "06/05/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Falha de lubrificação no mancal",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (falha de lubrificação no mancal).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Mão de obra",
+        "Causa": "Falha de lubrificação no mancal associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Revisar e padronizar o plano de lubrificação do equipamento.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250515-RCA-BC14 Graxa inadequada aplicada (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "GRAXA INADEQUADA APLICADA.",
+    "Quando": "15/05/202523:36:23",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: GRAXA INADEQUADA APLICADA (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Retirar graxa existente e substituir por NLGI 2 EP.\n",
+      "Padronizar lubrificante na linha",
+      "Rotular pontos de lubrificação"
+    ],
+    "Onde Ação de Contenção": "Skid 02",
+    "Responsável": "Luiza Martins",
+    "Data de Início de Contenção": "13/05/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Graxa inadequada aplicada",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (graxa inadequada aplicada).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Mão de obra",
+        "Causa": "Graxa inadequada aplicada associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Implantar especificação única de graxa e treinar equipe.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250522-RCA-BC14 Contaminação no óleo do cárter (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "CONTAMINAÇÃO NO ÓLEO DO CÁRTER.",
+    "Quando": "22/05/202518:32:05",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: CONTAMINAÇÃO NO ÓLEO DO CÁRTER (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Trocar óleo e filtrar circuito",
+      "Instalar dessicante no respiro",
+      "Verificar vedação do retentor"
+    ],
+    "Onde Ação de Contenção": "Pátio de Manutenção",
+    "Responsável": "Ana Paula",
+    "Data de Início de Contenção": "21/05/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Contaminação no óleo do cárter",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (contaminação no óleo do cárter).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Mão de obra",
+        "Causa": "Contaminação no óleo do cárter associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Instalar controle de contaminação (respiro dessicante) e revisar vedação.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250529-RCA-BC14 Falha no sistema automático de lubrificação (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "FALHA NO SISTEMA AUTOMÁTICO DE LUBRIFICAÇÃO.",
+    "Quando": "29/05/202518:35:35",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: FALHA NO SISTEMA AUTOMÁTICO DE LUBRIFICAÇÃO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Inspecionar dosadores e bomba do sistema",
+      "Limpar linhas obstruídas",
+      "Substituir dosador com problema"
+    ],
+    "Onde Ação de Contenção": "Skid 02",
+    "Responsável": "Luiza Martins",
+    "Data de Início de Contenção": "28/05/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Falha no sistema automático de lubrificação",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (falha no sistema automático de lubrificação).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Mão de obra",
+        "Causa": "Falha no sistema automático de lubrificação associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Manutenção corretiva no sistema automático e PMOC de inspeção mensal.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250605-RCA-BC14 Periodicidade de relubrificação inadequada (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "PERIODICIDADE DE RELUBRIFICAÇÃO INADEQUADA.",
+    "Quando": "05/06/202516:44:40",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: PERIODICIDADE DE RELUBRIFICAÇÃO INADEQUADA (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Recalcular periodicidade de relubrificação",
+      "Ajustar plano de manutenção preventiva",
+      "Habilitar checagem por vibração/temperatura"
+    ],
+    "Onde Ação de Contenção": "Linha 2 – Painel CLP",
+    "Responsável": "Ana Paula",
+    "Data de Início de Contenção": "03/06/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Periodicidade de relubrificação inadequada",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (periodicidade de relubrificação inadequada).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Mão de obra",
+        "Causa": "Periodicidade de relubrificação inadequada associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Recalcular periodicidade com base em condição e histórico.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250612-RCA-BC14 Desbalanceamento do rotor (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "DESBALANCEAMENTO DO ROTOR.",
+    "Quando": "12/06/202521:33:14",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: DESBALANCEAMENTO DO ROTOR (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Executar balanceamento em campo",
+      "Inspecionar acúmulo de material no rotor",
+      "Verificar acoplamento"
+    ],
+    "Onde Ação de Contenção": "Linha 2 – Painel CLP",
+    "Responsável": "Carlos Eduardo",
+    "Data de Início de Contenção": "12/06/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Desbalanceamento do rotor",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (desbalanceamento do rotor).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Desbalanceamento do rotor associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Programa de balanceamento periódico e limpeza preventiva do rotor.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250619-RCA-BC14 Alinhamento incorreto do acoplamento (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "ALINHAMENTO INCORRETO DO ACOPLAMENTO.",
+    "Quando": "19/06/202519:56:09",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: ALINHAMENTO INCORRETO DO ACOPLAMENTO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Realizar alinhamento a laser",
+      "Inspecionar calços e base",
+      "Verificar tensão em tubulação"
+    ],
+    "Onde Ação de Contenção": "Skid 02",
+    "Responsável": "Luiza Martins",
+    "Data de Início de Contenção": "17/06/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Alinhamento incorreto do acoplamento",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (alinhamento incorreto do acoplamento).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Alinhamento incorreto do acoplamento associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Padronizar alinhamento a laser após qualquer intervenção mecânica.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250626-RCA-BC14 Desgaste de rolamento (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "DESGASTE DE ROLAMENTO.",
+    "Quando": "26/06/202520:05:52",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: DESGASTE DE ROLAMENTO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Substituir rolamento e aferir pré-carga",
+      "Verificar montagem e lubrificação",
+      "Analisar contaminação"
+    ],
+    "Onde Ação de Contenção": "Casa de Bombas Lado Norte",
+    "Responsável": "Ana Paula",
+    "Data de Início de Contenção": "24/06/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Desgaste de rolamento",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (desgaste de rolamento).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Desgaste de rolamento associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Revisar estoque e procedimento de montagem para evitar pré-carga inadequada.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250703-RCA-BC14 Cavitação na sucção (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "CAVITAÇÃO NA SUCÇÃO.",
+    "Quando": "03/07/202518:53:06",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: CAVITAÇÃO NA SUCÇÃO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Ajustar válvula/pressão de sucção",
+      "Remover obstruções",
+      "Checar NPSH disponível"
+    ],
+    "Onde Ação de Contenção": "Skid 02",
+    "Responsável": "Luiza Martins",
+    "Data de Início de Contenção": "01/07/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Cavitação na sucção",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (cavitação na sucção).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Cavitação na sucção associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Ajustar condições hidráulicas e revisar projeto de sucção.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250710-RCA-BC14 Vibração excessiva (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "VIBRAÇÃO EXCESSIVA.",
+    "Quando": "10/07/202516:09:13",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: VIBRAÇÃO EXCESSIVA (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Reaperto estrutural",
+      "Inspecionar fundações",
+      "Analisar espectro FFT"
+    ],
+    "Onde Ação de Contenção": "Linha 2 – Painel CLP",
+    "Responsável": "João Vitor",
+    "Data de Início de Contenção": "09/07/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Vibração excessiva",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (vibração excessiva).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Vibração excessiva associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Auditoria de fixação e integridade estrutural com plano de correção.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250717-RCA-BC14 Vazamento em selo mecânico (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "VAZAMENTO EM SELO MECÂNICO.",
+    "Quando": "17/07/202520:59:37",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: VAZAMENTO EM SELO MECÂNICO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Reduzir pressão e checar face do selo",
+      "Substituir selo se necessário",
+      "Avaliar alinhamento"
+    ],
+    "Onde Ação de Contenção": "Galeria de Bombas",
+    "Responsável": "Mariana Santos",
+    "Data de Início de Contenção": "16/07/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Vazamento em selo mecânico",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (vazamento em selo mecânico).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Vazamento em selo mecânico associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Aplicar plano de vedação e monitoramento de selagem.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250724-RCA-BC14 Afrouxamento de base (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "AFROUXAMENTO DE BASE.",
+    "Quando": "24/07/202519:20:11",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: AFROUXAMENTO DE BASE (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Reapertar chumbadores",
+      "Verificar calços",
+      "Inspecionar base para trincas"
+    ],
+    "Onde Ação de Contenção": "Casa de Bombas Lado Norte",
+    "Responsável": "Ana Paula",
+    "Data de Início de Contenção": "22/07/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Afrouxamento de base",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (afrouxamento de base).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Afrouxamento de base associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Implementar torqueamento periódico com registro.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250731-RCA-BC14 Obstrução parcial de filtro (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "OBSTRUÇÃO PARCIAL DE FILTRO.",
+    "Quando": "31/07/202520:03:31",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: OBSTRUÇÃO PARCIAL DE FILTRO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Limpar elemento filtrante",
+      "Substituir filtro",
+      "Verificar diferencial de pressão"
+    ],
+    "Onde Ação de Contenção": "Pátio de Manutenção",
+    "Responsável": "Mariana Santos",
+    "Data de Início de Contenção": "30/07/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Obstrução parcial de filtro",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (obstrução parcial de filtro).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Obstrução parcial de filtro associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Rotina de inspeção e troca por diferencial de pressão.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250807-RCA-BC14 Falha em sensor de temperatura (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "FALHA EM SENSOR DE TEMPERATURA.",
+    "Quando": "07/08/202516:37:32",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: FALHA EM SENSOR DE TEMPERATURA (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Testar sensor em bancada",
+      "Substituir sensor defeituoso",
+      "Verificar cabeamento"
+    ],
+    "Onde Ação de Contenção": "Casa de Bombas Lado Norte",
+    "Responsável": "Mariana Santos",
+    "Data de Início de Contenção": "06/08/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Falha em sensor de temperatura",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (falha em sensor de temperatura).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Falha em sensor de temperatura associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Padronizar sensores e inspeção elétrica trimestral.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "file": "20250814-RCA-BC14 Fadiga em acoplamento (CADASTRADA)",
+    "Tipo de analise": "RCA",
+    "O que": "FADIGA EM ACOPLAMENTO.",
+    "Quando": "14/08/202518:29:31",
+    "Área": "LINHA DE ENVASE 02",
+    "Equipamento": "BC-14",
+    "Subgrupo": "CONJUNTO ROTATIVO",
+    "Descrição do Problema": "CAUSA: FADIGA EM ACOPLAMENTO (BOMBA CENTRÍFUGA BC-14).",
+    "Ação de Contenção": [
+      "Substituir elemento elástico",
+      "Reavaliar alinhamento",
+      "Verificar sobrecarga"
+    ],
+    "Onde Ação de Contenção": "Skid 02",
+    "Responsável": "Ana Paula",
+    "Data de Início de Contenção": "13/08/2025",
+    "5 Porquês": [
+      {
+        "Causa ou Efeito": "Fadiga em acoplamento",
+        "Porquês": [
+          "Porque a condição anormal foi observada em inspeção de rotina (fadiga em acoplamento).",
+          "Porque o procedimento não foi seguido integralmente no último turno.",
+          "Porque o treinamento está desatualizado e não há checklist padronizado.",
+          "Porque o plano de manutenção não foi revisto após alteração de regime de operação.",
+          "Porque a governança não possui gatilho para reclassificação de criticidade."
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "Causa ou Efeito": null,
+        "Porquês": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "Causa Raiz": [
+      {
+        "Tipo": "Máquina",
+        "Causa": "Fadiga em acoplamento associado a lacunas de procedimento e controle."
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      },
+      {
+        "Tipo": null,
+        "Causa": null
+      }
+    ],
+    "Ishikawa": {
+      "Meio Ambiente": [
+        "Temperatura ambiente elevada na casa de bombas",
+        "Umidade relativa alta favorecendo contaminação por água no óleo",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Máquina": [
+        "Vedação do retentor degradada",
+        "Folga excessiva no mancal",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Mão de Obra": [
+        "Aplicação de lubrificante fora da especificação",
+        "Procedimento de relubrificação não seguido integralmente",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Sistema de Medição": [
+        "Sensor de vibração sem calibração atualizada",
+        "Ponto de medição mal posicionado",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Método": [
+        "Periodicidade de inspeção inadequada para o regime atual",
+        "Checklist inexistente para pontos de lubrificação críticos",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "Material": [
+        "Graxa/óleo fora de especificação (viscosidade inadequada)",
+        "Lote de lubrificante com contaminação particulada",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Plano de Ação": [
+      "Programa de substituição preventiva do elemento elástico.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+]
