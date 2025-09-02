@@ -12,6 +12,9 @@
 ## 🖼️ Análise de Imagens
 📷 **IMAGEM_01.jpg**
 
+   ![IMAGEM_01](https://github.com/user-attachments/assets/008e74d6-5627-4028-ac9a-c347f6179de5)
+
+
 ### Análise de Falha - Rolamento e Alojamento
 
 **Danos Visíveis e Localização:**
@@ -32,6 +35,9 @@
 ---
 
 📷 **IMAGEM_02.JPG**
+
+  ![IMAGEM_02](https://github.com/user-attachments/assets/6160c871-8b4c-4bd8-b5fb-4a3110f0b197)
+
 
 **Parecer Técnico - Análise de Falha do Lubrificante (Equipamento Metalúrgico)**
 
@@ -57,9 +63,14 @@ A condição do lubrificante é classificada como **CRÍTICO**, conforme indicad
 
 📷 **IMAGEM_03.jpeg**
 
-Como especialista em engenharia de falhas, segue a análise dos sinais visíveis nas imagens microscópicas das partículas de desgaste:
+![IMAGEM_03](https://github.com/user-attachments/assets/878e4b04-7c35-478f-9429-832c1c5cee39)
+
+
+
 
 ---
+
+Como especialista em engenharia de falhas, segue a análise dos sinais visíveis nas imagens microscópicas das partículas de desgaste:
 
 **Análise de Partículas de Desgaste por Fadiga (Imagem Superior - até 88 micrômetros):**
 
@@ -78,6 +89,12 @@ Como especialista em engenharia de falhas, segue a análise dos sinais visíveis
     *   **Tamanho:** Pequeno e uniforme, atingindo até 8 micrômetros.
     *   **Padrão:** Partículas finas e fragmentadas, muitas vezes agrupadas em feixes ou linhas que refletem a direção do contato ou remoção de material.
     *   **Coloração:** Brilhante, prateada metálica homogênea, indicando material de base sem oxidação ou degradação significativa aparente.
+
+---
+
+
+[📂 Ver arquivo Histórico Bruto  ](Historico_Bruto.json)
+
 
 ---
 
