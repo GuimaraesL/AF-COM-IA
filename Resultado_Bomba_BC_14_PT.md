@@ -36,7 +36,7 @@
 
 📷 **IMAGEM_02.JPG**
 
-  ![IMAGEM_02](./Assets/IMAGEM_02.jpg)
+  ![IMAGEM_02](./Assets/IMAGEM_02.JPG)
 
 
 **Parecer Técnico - Análise de Falha do Lubrificante (Equipamento Metalúrgico)**
@@ -95,7 +95,7 @@ Como especialista em engenharia de falhas, segue a análise dos sinais visíveis
 
 ## 📊 Diagrama de Ishikawa 
 
-![ISHIKAWA](./Assets/ISHIKAWA.JPG)
+![ISHIKAWA](./Assets/ISHIKAWA.jpg)
 
 
 ---
