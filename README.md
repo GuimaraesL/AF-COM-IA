@@ -1,7 +1,19 @@
-## ⚙ Sistema Inteligente de Análise de Causa Raiz (RCA) com IA
-  Este projeto é um aplicativo web construído com Streamlit e Python, projetado para automatizar e aprimorar o processo de Análise de Causa Raiz (RCA) em falhas de equipamentos industriais.
-    
-  A aplicação utiliza o poder de modelos de linguagem de última geração para analisar dados multimodais (textos, imagens e vídeos) e gerar relatórios técnicos estruturados, entregando agilidade, rastreabilidade e inteligência ao processo de manutenção.
+## ⚙️ Sistema Inteligente de Análise de Causa Raiz (RCA) com IA
+
+Este aplicativo automatiza a Análise de Causa Raiz (RCA) de falhas industriais, utilizando Inteligência Artificial para gerar relatórios técnicos completos.
+
+> **O verdadeiro diferencial do sistema é a sua capacidade de se conectar e aprender com a *memória técnica da sua própria empresa*.**
+
+### 🧠 O Diferencial: Aprendizado Contínuo com o Seu Histórico
+
+A IA é alimentada com o **histórico de análises de falhas específico do cliente** — todos os laudos e relatórios acumulados por seus engenheiros e técnicos ao longo dos anos. Este capital intelectual, que antes ficava arquivado e subutilizado, é transformado em uma base de conhecimento ativa e dinâmica.
+
+### 🚀 Principais Benefícios
+
+* **⚡ Agilidade:** As análises não começam do zero. A IA aproveita o conhecimento passado para acelerar drasticamente o diagnóstico.
+* **🔄 Consistência:** Garante que a experiência e os padrões de soluções da sua equipe sejam aplicados em todas as novas análises.
+* **🎯 Precisão Contextualizada:** Os diagnósticos refletem o **DNA da sua operação**, considerando as particularidades e soluções que funcionaram no seu ambiente.
+* **📚 Ativação de Conhecimento:** Transforma um arquivo estático de relatórios em uma ferramenta de suporte à decisão inteligente e ativa.
 
 
 ---
