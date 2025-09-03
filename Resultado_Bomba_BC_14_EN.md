@@ -12,6 +12,11 @@
 ## 🖼️ Image Analysis
 📷 **IMAGEM_01.jpg**
 
+   ![IMAGEM_01](https://github.com/user-attachments/assets/008e74d6-5627-4028-ac9a-c347f6179de5)
+
+
+   ---
+
 **Failure Analysis Report: Bearing Assembly**
 
 **Visible Damage:**
@@ -41,6 +46,11 @@
 ---
 
 📷 **IMAGEM_02.JPG**
+
+  ![IMAGEM_02](https://github.com/user-attachments/assets/6160c871-8b4c-4bd8-b5fb-4a3110f0b197)
+
+
+  ---
 
 **Observation Report: Equipment Condition Based on Lubricant Analysis**
 
@@ -74,6 +84,11 @@
 ---
 
 📷 **IMAGEM_03.jpeg**
+
+
+![IMAGEM_03](https://github.com/user-attachments/assets/878e4b04-7c35-478f-9429-832c1c5cee39)
+
+---
 
 **Failure Analysis Observation Report**
 
