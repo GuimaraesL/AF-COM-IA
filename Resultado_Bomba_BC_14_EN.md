@@ -47,7 +47,7 @@
 
 📷 **IMAGEM_02.JPG**
 
-  ![IMAGEM_02](.Assets/IMAGEM_02.JPG)
+  ![IMAGEM_02](./Assets/IMAGEM_02.JPG)
 
 
   ---
@@ -138,7 +138,7 @@ The presence of both large, flaky fatigue particles and small, numerous, granula
 ## 📊 Ishikawa Diagram
 
 
-![ishikawa diagram](./Assets/ISHIKAWA_DIAGRAM.JPG)
+![ishikawa diagram](./Assets/ISHIKAWA_DIAGRAM.jpg)
 
 ---
 
