@@ -202,6 +202,7 @@ project/
 
 ## 🔄 Fluxo de Processamento (Sequência)
 
+```mermaid
 graph TD
     subgraph "Início e Coleta de Dados"
         A[/"O usuário inicia a aplicação<br>e seleciona uma pasta de análise"/] --> B{Localiza arquivos<br>.xlsx, imagens e vídeos};
@@ -220,7 +221,7 @@ graph TD
         D --> G_Dossie;
         F --> G_Dossie;
         
-        G_Dossie(Consolidação do Dossiê<br>Junta dados do Excel, análise de mídias e histórico refinado) --> H{Análise Final com IA Principal<br>Gemini 1.5 Pro/Flash};
+        G_Dossie(Consolidação do Dossiê<br>Junta dados do Excel, análise de mídias e histórico refinado) --> H{Análise Final com IA Principal<br>Gemini 2.5 Pro/Flash};
     end
 
     subgraph "Geração e Exibição dos Resultados"
@@ -241,6 +242,7 @@ graph TD
     class H aiAnalysis;
     class C,D,E,F,I,J process;
 
+```
 
 ---
 
