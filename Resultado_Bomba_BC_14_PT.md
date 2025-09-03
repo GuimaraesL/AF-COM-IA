@@ -66,9 +66,8 @@ A condição do lubrificante é classificada como **CRÍTICO**, conforme indicad
 ![IMAGEM_03](https://github.com/user-attachments/assets/878e4b04-7c35-478f-9429-832c1c5cee39)
 
 
-
-
 ---
+
 
 Como especialista em engenharia de falhas, segue a análise dos sinais visíveis nas imagens microscópicas das partículas de desgaste:
 
@@ -89,6 +88,15 @@ Como especialista em engenharia de falhas, segue a análise dos sinais visíveis
     *   **Tamanho:** Pequeno e uniforme, atingindo até 8 micrômetros.
     *   **Padrão:** Partículas finas e fragmentadas, muitas vezes agrupadas em feixes ou linhas que refletem a direção do contato ou remoção de material.
     *   **Coloração:** Brilhante, prateada metálica homogênea, indicando material de base sem oxidação ou degradação significativa aparente.
+
+---
+
+
+
+## 📊 Ishikawa Diagram
+
+![ISHIKAWA](https://github.com/user-attachments/assets/580f2e64-4ca2-4847-8d7b-b452f31661f5)
+
 
 ---
 
