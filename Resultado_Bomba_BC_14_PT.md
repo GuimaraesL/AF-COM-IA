@@ -93,7 +93,7 @@ Como especialista em engenharia de falhas, segue a análise dos sinais visíveis
 
 
 
-## 📊 Ishikawa Diagram
+## 📊 Diagrama de Ishikawa 
 
 ![ISHIKAWA](https://github.com/user-attachments/assets/580f2e64-4ca2-4847-8d7b-b452f31661f5)
 
