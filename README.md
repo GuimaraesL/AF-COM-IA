@@ -156,7 +156,7 @@
   - `core/failure_analysis_app.py` — coordena o pipeline: Excel → Mídias → Histórico (RAG) → IA → Relatório.
 
 - **Serviços de Domínio:**
-  - `core/excel_reader.py` — leitura da aba **A3 Time de Resolução de Prob**.
+  - `core/excel_reader.py` — leitura da aba Excel.
   - `core/image_analyzer.py` — análise técnica de **imagens** (Gemini).
   - `core/video_analyzer.py` — análise técnica de **vídeos** (Gemini).
   - `core/ai_processor.py` — prompts, chamada ao Gemini e parsing (Ishikawa/5 Whys).
