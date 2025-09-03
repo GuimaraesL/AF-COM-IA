@@ -47,7 +47,7 @@
 
 📷 **IMAGEM_02.JPG**
 
-  ![IMAGEM_02](./Assets/IMAGEM_02.jpg)
+  ![IMAGEM_02](.Assets/IMAGEM_02.JPG)
 
 
   ---
