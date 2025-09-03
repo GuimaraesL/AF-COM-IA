@@ -15,7 +15,7 @@
 ---
 ## 📸 Interface do Sistema
 
- ![Interface do Sistema](./Assets/interface.png)
+ ![Interface do Sistema](./Assets/INTERFACE.png)
 
 ---
 
