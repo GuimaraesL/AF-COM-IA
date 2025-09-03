@@ -202,31 +202,45 @@ project/
 
 ## 🔄 Fluxo de Processamento (Sequência)
 
-```mermaid
-sequenceDiagram
-    autonumber
-    participant U as Usuário (Streamlit)
-    participant FA as FailureAnalysisApp
-    participant ER as ExcelReader
-    participant IA as ImageAnalyzer
-    participant VA as VideoAnalyzer
-    participant HM as HistoryManager
-    participant AIP as AIProcessor
-    participant LLM as Gemini
-    participant RG as ReportGenerator
+graph TD
+    subgraph "Início e Coleta de Dados"
+        A[/"O usuário inicia a aplicação<br>e seleciona uma pasta de análise"/] --> B{Localiza arquivos<br>.xlsx, imagens e vídeos};
+    end
 
-    U->>FA: Seleciona pasta com Excel + mídias
-    FA->>ER: Lê A3 (área, equipamento, subgrupo, descrição)
-    FA->>VA: Analisa vídeos (upload → generate_content)
-    FA->>IA: Analisa imagens (bytes → generate_content)
-    FA->>HM: Busca histórico por chaves normalizadas
-    HM-->>FA: Retorna candidatos correlatos
-    FA->>AIP: Monta prompt com Excel+Mídias+Histórico
-    AIP->>LLM: Chama Gemini (análise final)
-    LLM-->>AIP: Ishikawa, 5 Whys, Ações, Conclusão
-    FA->>RG: Gera relatório Markdown
-    RG-->>U: Disponibiliza relatório na UI
-```
+    subgraph "Processamento e Análise de IA"
+        B --> C[Análise de Mídias<br>IA gera laudos textuais de imagens/vídeos];
+        B --> D[Leitura de Dados Estruturados<br>Extrai informações do arquivo .xlsx];
+        
+        subgraph "RAG - Busca Inteligente no Histórico"
+            D --> E[Estágio 1: Filtro Inicial<br>HistoryManager busca no JSON por equipamento similar];
+            E --> F[Estágio 2: Refinamento Semântico<br>IA intermediária seleciona os 3 casos históricos mais relevantes];
+        end
+
+        C --> G_Dossie;
+        D --> G_Dossie;
+        F --> G_Dossie;
+        
+        G_Dossie(Consolidação do Dossiê<br>Junta dados do Excel, análise de mídias e histórico refinado) --> H{Análise Final com IA Principal<br>Gemini 1.5 Pro/Flash};
+    end
+
+    subgraph "Geração e Exibição dos Resultados"
+        H --> I[Geração da Análise<br>Cria Diagrama de Ishikawa, 5 Porquês e Plano de Ação];
+        I --> J[Formatação do Relatório<br>ReportGenerator cria o arquivo .md final];
+        J --> K[/Exibição na Interface<br>Resultados são mostrados no Streamlit e ficam disponíveis para download/];
+    end
+
+    %% Definição de Classes de Estilo
+    classDef startEnd fill:#D5E8D4,stroke:#82B366,stroke-width:2px,color:black;
+    classDef milestone fill:#DAE8FC,stroke:#6C8EBF,stroke-width:2px,color:black;
+    classDef aiAnalysis fill:#FFE6CC,stroke:#D79B00,stroke-width:3px,color:black;
+    classDef process fill:#F8CECC,stroke:#B85450,stroke-width:1px,color:black;
+
+    %% Aplicação das Classes aos Nós
+    class A,K startEnd;
+    class G_Dossie milestone;
+    class H aiAnalysis;
+    class C,D,E,F,I,J process;
+
 
 ---
 
@@ -371,6 +385,8 @@ flowchart LR
 
 
 ---
+
+
 
 
 
