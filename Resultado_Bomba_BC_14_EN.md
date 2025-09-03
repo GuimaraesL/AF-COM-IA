@@ -12,7 +12,7 @@
 ## 🖼️ Image Analysis
 📷 **IMAGEM_01.jpg**
 
-   ![IMAGEM_01](https://github.com/user-attachments/assets/008e74d6-5627-4028-ac9a-c347f6179de5)
+   ![IMAGEM_01](./Assets/IMAGEM_01.jpg)
 
 
    ---
@@ -47,7 +47,7 @@
 
 📷 **IMAGEM_02.JPG**
 
-  ![IMAGEM_02](https://github.com/user-attachments/assets/6160c871-8b4c-4bd8-b5fb-4a3110f0b197)
+  ![IMAGEM_02](./Assets/IMAGEM_02.jpg)
 
 
   ---
@@ -86,7 +86,7 @@
 📷 **IMAGEM_03.jpeg**
 
 
-![IMAGEM_03](https://github.com/user-attachments/assets/878e4b04-7c35-478f-9429-832c1c5cee39)
+![IMAGEM_03](./Assets/IMAGEM_03.jpeg)
 
 ---
 
@@ -138,7 +138,7 @@ The presence of both large, flaky fatigue particles and small, numerous, granula
 ## 📊 Ishikawa Diagram
 
 
-![ishikawa diagram](https://github.com/user-attachments/assets/8283bb45-7d5c-43c2-ba29-629ccd61ce89)
+![ishikawa diagram](./Assets/ISHIKAWA_DIAGRAM.JPG)
 
 ---
 
