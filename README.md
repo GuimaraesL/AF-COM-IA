@@ -139,6 +139,198 @@
 
 ---
 
+
+# 📐 Arquitetura do Sistema — Análise de Falhas (RCA com IA)
+
+
+---
+
+## ⚙️ Visão Geral (Camadas)
+
+- **Apresentação (UI):**
+  - `app.py` — interface em **Streamlit**.
+  - `ui/texts.py` — textos bilíngues (PT/EN).
+  - `styles.css` — estilos customizados.
+
+- **Aplicação (Orquestração):**
+  - `core/failure_analysis_app.py` — coordena o pipeline: Excel → Mídias → Histórico (RAG) → IA → Relatório.
+
+- **Serviços de Domínio:**
+  - `core/excel_reader.py` — leitura da aba **A3 Time de Resolução de Prob**.
+  - `core/image_analyzer.py` — análise técnica de **imagens** (Gemini).
+  - `core/video_analyzer.py` — análise técnica de **vídeos** (Gemini).
+  - `core/ai_processor.py` — prompts, chamada ao Gemini e parsing (Ishikawa/5 Whys).
+  - `core/history_manager.py` — RAG (match por Área/Equipamento/Subgrupo + refinamento semântico).
+  - `core/report_generator.py` — relatório final em Markdown.
+  - `core/prompts.py` — templates de prompts e formatação.
+
+- **Infraestrutura & Config:**
+  - `core/config_loader.py` — leitura de `config.json` (API keys/paths).
+  - `extracted_data.json` — base histórica (entrada do RAG).
+  - `logs/` — registro de prompts enviados.
+  - `relatorios/` — saída dos relatórios `.md`.
+
+---
+
+## 🗂 Estrutura de Pastas
+
+```
+project/
+│── app.py
+│── styles.css
+│── config.json
+│── extracted_data.json
+│
+├── ui/
+│   └── texts.py
+│
+├── core/
+│   ├── failure_analysis_app.py
+│   ├── excel_reader.py
+│   ├── image_analyzer.py
+│   ├── video_analyzer.py
+│   ├── ai_processor.py
+│   ├── history_manager.py
+│   ├── report_generator.py
+│   └── prompts.py
+│
+├── logs/
+└── relatorios/
+```
+
+---
+
+## 🔄 Fluxo de Processamento (Sequência)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as Usuário (Streamlit)
+    participant FA as FailureAnalysisApp
+    participant ER as ExcelReader
+    participant IA as ImageAnalyzer
+    participant VA as VideoAnalyzer
+    participant HM as HistoryManager
+    participant AIP as AIProcessor
+    participant LLM as Gemini
+    participant RG as ReportGenerator
+
+    U->>FA: Seleciona pasta com Excel + mídias
+    FA->>ER: Lê A3 (área, equipamento, subgrupo, descrição)
+    FA->>VA: Analisa vídeos (upload → generate_content)
+    FA->>IA: Analisa imagens (bytes → generate_content)
+    FA->>HM: Busca histórico por chaves normalizadas
+    HM-->>FA: Retorna candidatos correlatos
+    FA->>AIP: Monta prompt com Excel+Mídias+Histórico
+    AIP->>LLM: Chama Gemini (análise final)
+    LLM-->>AIP: Ishikawa, 5 Whys, Ações, Conclusão
+    FA->>RG: Gera relatório Markdown
+    RG-->>U: Disponibiliza relatório na UI
+```
+
+---
+
+## 🧩 Diagrama de Containers (C4 — Nível 2)
+
+```mermaid
+flowchart LR
+    subgraph Client[Usuário]
+        U[Browser]
+    end
+
+    subgraph App[App Streamlit]
+        UI[app.py + styles.css + ui/texts.py]
+        CORE[core/failure_analysis_app.py]
+        SRV1[core/excel_reader.py]
+        SRV2[core/image_analyzer.py]
+        SRV3[core/video_analyzer.py]
+        SRV4[core/history_manager.py]
+        SRV5[core/ai_processor.py + core/prompts.py]
+        SRV6[core/report_generator.py]
+        CFG[core/config_loader.py]
+        HIST[(extracted_data.json)]
+        FS[(Sistema de Arquivos)]
+    end
+
+    subgraph Ext[Serviços Externos]
+        LLM[(Gemini API)]
+        GCP[(Credenciais Google)]
+    end
+
+    U --> UI
+    UI --> CORE
+    CORE --> SRV1
+    CORE --> SRV2
+    CORE --> SRV3
+    CORE --> SRV4
+    CORE --> SRV5
+    CORE --> SRV6
+    SRV4 --> HIST
+    CORE --> FS
+    SRV5 --> LLM
+    CFG --> CORE
+    CFG --> SRV2
+    CFG --> SRV3
+    CFG --> SRV5
+```
+
+---
+
+## 🧠 Contratos de Dados (principais I/O)
+
+### 1) Saída do `ExcelReader.read_excel()`
+```json
+{
+  "status": "success",
+  "data": {
+    "area": "Manutenção",
+    "equipment": "Bomba 14",
+    "subgroup": "Hidráulico",
+    "description": "Perda de pressão e vazamento..."
+  }
+}
+```
+
+### 2) `AIProcessor.process_with_gemini()` (resumo)
+```json
+{
+  "raw_response": "<markdown do LLM>",
+  "ishikawa": {"causes": { "Material": ["...","..."], "Máquina": ["...","..."] }},
+  "five_whys": ["Por que ...? ...", "..."],
+  "action_plan": ["...", "...", "..."],
+  "conclusion": "Texto final",
+  "token_details": { "input_tokens": 0, "output_tokens": 0, "total_tokens": 0 }
+}
+```
+
+### 3) Resultado agregado por pasta (em `FailureAnalysisApp.process_folder`)
+```json
+{
+  "folder": "pasta_caso_x",
+  "status": "success",
+  "details": {
+    "excel_data": { "...": "..." },
+    "image_results": "markdown",
+    "video_results": "markdown",
+    "ai_results": { "...": "..." },
+    "broad_history_found": [{ "...": "..." }],
+    "refined_history": "markdown"
+  },
+  "token_details": {
+    "media_tokens": 0,
+    "media_output_tokens": 0,
+    "history_input_tokens": 0,
+    "history_output_tokens": 0,
+    "history_total": 0,
+    "prompt_tokens": 0,
+    "response_tokens": 0,
+    "total": 0
+  }
+}
+```
+
+---
+
 ## 🛠 Tecnologias Utilizadas
 
    Python 3.9+
@@ -175,6 +367,7 @@
    Flexibilidade: funciona tanto em ambiente de testes (com dados fictícios) quanto em casos reais, mantendo confiabilidade.
     
    Exportação rastreável com relatórios versionados por data e hora.
+   
 
 
 ---
