@@ -134,6 +134,15 @@ The analysis of collected wear particles reveals two distinct morphologies, indi
 
 The presence of both large, flaky fatigue particles and small, numerous, granular entrainment/scuffing particles indicates multiple concurrent and potentially severe wear mechanisms within the metallurgical equipment. This suggests either a complex operational environment or deteriorating component health where both subsurface fatigue and surface-contact related wear are active. Further analysis of the specific components from which these particles originated would be necessary to pinpoint the exact failure sources.
 
+
+---
+
+
+## [📂 View Raw History file](Historico_Bruto.json)
+
+
+---
+
 ## 📚 Failure History Correlation
 **Current Failure Analysis:**
 The current failure describes "abnormal heating in the bearings, accompanied by excessive noise and vibration above the limit" on Centrifugal Pump BC-14. This set of symptoms (heating, noise, vibration, specifically in the bearings) is highly indicative of bearing distress or failure. The core issue appears to be centered around the bearings and their operational condition.
