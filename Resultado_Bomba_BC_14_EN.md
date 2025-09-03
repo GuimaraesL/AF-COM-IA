@@ -134,6 +134,11 @@ The analysis of collected wear particles reveals two distinct morphologies, indi
 
 The presence of both large, flaky fatigue particles and small, numerous, granular entrainment/scuffing particles indicates multiple concurrent and potentially severe wear mechanisms within the metallurgical equipment. This suggests either a complex operational environment or deteriorating component health where both subsurface fatigue and surface-contact related wear are active. Further analysis of the specific components from which these particles originated would be necessary to pinpoint the exact failure sources.
 
+---
+## 📊 Ishikawa Diagram
+
+
+![ishikawa diagram](https://github.com/user-attachments/assets/8283bb45-7d5c-43c2-ba29-629ccd61ce89)
 
 ---
 
