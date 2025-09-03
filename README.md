@@ -5,7 +5,14 @@
 
 
 ---
+## 🎥 Assista à demonstração no Vimeo
 
+
+[![Assista à demonstração](https://github.com/user-attachments/assets/4a46afd1-cfe6-4ef7-9720-d30a9002691f)](https://player.vimeo.com/video/1115514946?h=1258ba6fe4)
+
+
+
+---
 ## 📸 Interface do Sistema
 
  <img width="1490" height="882" alt="image" src="https://github.com/user-attachments/assets/8f333fd1-d212-4dd6-b4a8-942c33a44f09" />
