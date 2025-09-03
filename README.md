@@ -15,7 +15,7 @@
 ---
 ## 📸 Interface do Sistema
 
- <img width="1490" height="882" alt="image" src="https://github.com/user-attachments/assets/8f333fd1-d212-4dd6-b4a8-942c33a44f09" />
+ !Interface
 
 ---
 
