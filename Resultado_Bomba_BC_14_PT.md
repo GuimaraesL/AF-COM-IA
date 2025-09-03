@@ -93,7 +93,7 @@ Como especialista em engenharia de falhas, segue a análise dos sinais visíveis
 ---
 
 
-[📂 Ver arquivo Histórico Bruto  ](Historico_Bruto.json)
+## [📂 Ver arquivo Histórico Bruto  ](Historico_Bruto.json)
 
 
 ---
