@@ -10,7 +10,7 @@
 
 
 ## 🖼️ Análise de Imagens
-📷 **IMAGEM_01.jpg**
+📷 **IMAGEM_01.jpg** (IMAGEM GERADA POR IA)
 
    ![IMAGEM_01](./Assets/IMAGEM_01.jpg)
 
